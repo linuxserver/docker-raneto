@@ -1,0 +1,16 @@
+#!/usr/bin/with-contenv bash
+
+# make directories if necessary
+[[ ! -d /config/content/images/ ]]  && \
+	mkdir -p /config/content/images/
+
+# create symlinks for config file
+[[ ! -f /config/config.default.js ]] && \
+	cp /defaults/config.default.js /config/config.default.js
+[[ -f /config/config.default.js ]] && \
+	cp config/config.default.js /app/raneto/example/config.default.js
+
+# permissions
+chown -R abc:abc \
+        /config \
+        /app/raneto
