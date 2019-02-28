@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:3.7
+FROM lsiobase/alpine:3.8
 
 # set version label
 ARG BUILD_DATE
@@ -12,37 +12,44 @@ ENV S6_BEHAVIOUR_IF_STAGE2_FAILS=2
 RUN \
  echo "**** install build packages ****" && \
  apk add --no-cache --virtual=build-dependencies \
-	build-base \
 	curl \
+	g++ \
+	gcc \
 	libsass-dev \
+	make \
 	nodejs-npm \
-	tar \
-	python && \
+	python \
+	tar && \
  echo "**** install runtime packages ****" && \
  apk add --no-cache \
 	nodejs && \
+ echo "**** update npm and install node dependencies ****" && \
+ npm install -g \
+	gulp-cli \
+	npm@latest \
+	pm2 && \
  echo "**** install raneto ****" && \
  mkdir -p \
 	/app/raneto && \
- RANETO_VER="$(curl -sX GET https://api.github.com/repos/gilbitron/Raneto/releases/latest | grep 'tag_name' | cut -d\" -f4)" && \
+ RANETO_VER=$(curl -sX GET "https://api.github.com/repos/gilbitron/Raneto/releases/latest" \
+	| awk '/tag_name/{print $4;exit}' FS='[""]') && \
  curl -o \
-/tmp/raneto-src.tar.gz -L \
+ /tmp/raneto-src.tar.gz -L \
 	"https://github.com/gilbitron/Raneto/archive/${RANETO_VER}.tar.gz" && \
-tar xf \
-/tmp/raneto-src.tar.gz -C \
+ tar xf \
+ /tmp/raneto-src.tar.gz -C \
 	/app/raneto --strip-components=1 && \
-cd /app/raneto && \
- 
-echo "**** install raneto node dev modules and build ****" && \
-npm config set unsafe-perm true && \
-npm install && \
- 
-echo "**** cleanup ****" && \
-apk del --purge build-dependencies && \
-rm -rf \
+ cd /app/raneto && \
+ echo "**** install raneto node dev modules and build ****" && \
+ npm install && \
+ gulp && \
+ echo "**** cleanup ****" && \
+ apk del --purge \
+	build-dependencies && \
+ rm -rf \
 	/root \
 	/tmp/* && \
-mkdir -p \
+ mkdir -p \
 	/root
 
 # copy local files
