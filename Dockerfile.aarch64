@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:3.9
+FROM lsiobase/alpine:arm64v8-3.9
 
 # set version label
 ARG BUILD_DATE
@@ -41,7 +41,6 @@ RUN \
  npm install gulp && \
  node node_modules/gulp/bin/gulp.js && \
  npm uninstall gulp && \
- echo "**** cleanup ****" && \
  echo "**** cleanup ****" && \
  rm -rf \
 	/root \

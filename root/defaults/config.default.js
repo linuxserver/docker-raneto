@@ -32,22 +32,18 @@ var config = {
   // all categories or files that do not specify ShowOnHome meta property will be shown
   show_on_home_default: true,
 
-  // Which Theme to Use?
-  theme_dir  : path.join(__dirname, '..', 'themes'),
-  theme_name : 'default',
-
   // Specify the path of your content folder where all your '.md' files are located
   // Fix: Needs trailing slash for now!
   // Fix: Cannot be an absolute path
-  content_dir : '/config/content',
+  content_dir : '/config/content/',
 
   // Where is the public directory or document root?
-  public_dir  : path.join(__dirname, '..', 'themes', 'default', 'public'),
+  public_dir  : '/app/raneto/themes/default/public',
 
   // The base URL of your images folder,
   // Relative to config.public_dir
   // (can use %image_url% in Markdown files)
-  image_url: '/config/content/images',
+  image_url: '/images',
 
   // Add your analytics tracking code (including script tags)
   analytics: '',
@@ -78,7 +74,7 @@ var config = {
     {
       username : 'admin',
       password : 'password'
-    },
+    }
   ],
 
   locale: 'en',
@@ -112,7 +108,7 @@ var config = {
   table_of_contents: false
 
 };
-config.public_dir = path.join(__dirname, '..', 'themes', config.theme_name, 'public');
+config.public_dir = '/app/raneto/themes/default/public';
 
 // Exports
-module.exports = config;  
+module.exports = config;
