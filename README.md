@@ -91,7 +91,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 3000` | The port for the Raneto web interface |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London, this is required for Radarr |
+| `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
 | `-v /config` | Raneto config and Markdown files |
 
 ## User / Group Identifiers
@@ -119,7 +119,7 @@ This application can only be configured through file storage the web interface i
 You need to understand the following paths and the role they play for the application: 
 
 * /config/config.default.js - Main configuation file to setup your user/site name/etc
-* /config/content - All of your markdown files goe here [more info](http://docs.raneto.com/usage/creating-pages)
+* /config/content - All of your markdown files go here [more info](http://docs.raneto.com/usage/creating-pages)
 * /config/images - This folder will serve content on http://<your-ip>:3000/images/<image name>.png you can put anything in here but it is specifically for image files so you can embedd them in your markdown files without using external hosting.
 
 

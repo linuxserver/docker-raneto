@@ -24,7 +24,7 @@ param_ports:
   - { external_port: "3000", internal_port: "3000", port_desc: "The port for the Raneto web interface" }
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London, this is required for Radarr"}
+  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
 
 # application setup block
 app_setup_block_enabled: true
@@ -37,7 +37,7 @@ app_setup_block: |
   You need to understand the following paths and the role they play for the application: 
   
   * /config/config.default.js - Main configuation file to setup your user/site name/etc
-  * /config/content - All of your markdown files goe here [more info](http://docs.raneto.com/usage/creating-pages)
+  * /config/content - All of your markdown files go here [more info](http://docs.raneto.com/usage/creating-pages)
   * /config/images - This folder will serve content on http://<your-ip>:3000/images/<image name>.png you can put anything in here but it is specifically for image files so you can embedd them in your markdown files without using external hosting.
 
 # changelog
