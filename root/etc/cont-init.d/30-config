@@ -1,16 +1,21 @@
 #!/usr/bin/with-contenv bash
 
 # make directories if necessary
-[[ ! -d /config/content/images/ ]]  && \
-	mkdir -p /config/content/images/
+mkdir -p /config/content
+i=/app/raneto/themes/default/public/images
+[[ -e "$i" && ! -L "$i" && -e /config/"$(basename "$i")" ]] && \
+	rm -Rf "$i" && \
+	ln -s /config/"$(basename "$i")" "$i"
+[[ -e "$i" && ! -L "$i" ]] && \
+	mv "$i" /config/"$(basename "$i")" && \
+	ln -s /config/"$(basename "$i")" "$i"
 
-# create symlinks for config file
+# create local user server files
 [[ ! -f /config/config.default.js ]] && \
 	cp /defaults/config.default.js /config/config.default.js
-[[ -f /config/config.default.js ]] && \
-	cp config/config.default.js /app/raneto/example/config.default.js
+[[ ! -f /app/raneto/server.js ]] && \
+        cp /defaults/server.js /app/raneto/server.js
 
 # permissions
 chown -R abc:abc \
-        /config \
-        /app/raneto
+        /config 

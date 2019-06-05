@@ -1,12 +1,6 @@
 #!/usr/bin/with-contenv bash
 
-echo "------------------"
-echo "Starting Raneto."
-echo "------------------"
-
-RUN_CMD="npm start"
-
 cd /app/raneto || exit
 
-exec \
-	s6-setuidgid abc /bin/bash -c "${RUN_CMD}"
+DEBUG=raneto exec \
+	s6-setuidgid abc node server.js
