@@ -3,7 +3,7 @@ alpine-keys-2.1-r2
 apk-tools-2.10.4-r1
 bash-5.0.0-r0
 binutils-2.32-r0
-build-dependencies-20190705.223552
+build-dependencies-20190705.225027
 busybox-1.30.1-r2
 c-ares-1.15.0-r0
 ca-certificates-20190108-r0
