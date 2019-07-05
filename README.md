@@ -188,4 +188,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **28.06.19:** - Rebasing to alpine 3.10.
 * **01.06.19:** - Initial Release.
