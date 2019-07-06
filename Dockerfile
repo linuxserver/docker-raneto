@@ -42,7 +42,8 @@ RUN \
  node node_modules/gulp/bin/gulp.js && \
  npm uninstall gulp && \
  echo "**** cleanup ****" && \
- echo "**** cleanup ****" && \
+ apk del --purge \
+	build-dependencies && \
  rm -rf \
 	/root \
 	/tmp/* && \
