@@ -37,8 +37,8 @@ RUN \
  echo "**** install raneto node dev modules and build ****" && \
  cd /app/raneto && \
  npm config set unsafe-perm true && \
- npm install --production && \
  npm install gulp && \
+ npm install --production && \
  node node_modules/gulp/bin/gulp.js && \
  npm uninstall gulp && \
  echo "**** cleanup ****" && \
