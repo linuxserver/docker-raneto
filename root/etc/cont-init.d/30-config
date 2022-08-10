@@ -4,18 +4,18 @@
 mkdir -p /config/content
 i=/app/raneto/themes/default/public/images
 [[ -e "$i" && ! -L "$i" && -e /config/"$(basename "$i")" ]] && \
-	rm -Rf "$i" && \
-	ln -s /config/"$(basename "$i")" "$i"
+    rm -Rf "$i" && \
+    ln -s /config/"$(basename "$i")" "$i"
 [[ -e "$i" && ! -L "$i" ]] && \
-	mv "$i" /config/"$(basename "$i")" && \
-	ln -s /config/"$(basename "$i")" "$i"
+    mv "$i" /config/"$(basename "$i")" && \
+    ln -s /config/"$(basename "$i")" "$i"
 
 # create local user server files
 [[ ! -f /config/config.default.js ]] && \
-	cp /defaults/config.default.js /config/config.default.js
+    cp /defaults/config.default.js /config/config.default.js
 [[ ! -f /app/raneto/server.js ]] && \
-        cp /defaults/server.js /app/raneto/server.js
+    cp /defaults/server.js /app/raneto/server.js
 
 # permissions
 chown -R abc:abc \
-        /config 
+    /config 

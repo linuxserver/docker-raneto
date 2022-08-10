@@ -3,4 +3,4 @@
 cd /app/raneto || exit
 
 DEBUG=raneto exec \
-	s6-setuidgid abc node server.js
+    s6-setuidgid abc node server.js
