@@ -8,7 +8,7 @@ release_tag: latest
 ls_branch: master
 repo_vars:
   - EXT_GIT_BRANCH = 'master'
-  - EXT_USER = 'gilbitron'
+  - EXT_USER = 'ryanlelek'
   - EXT_REPO = 'Raneto'
   - BUILD_VERSION_ARG = 'RANETO_RELEASE'
   - LS_USER = 'linuxserver'
