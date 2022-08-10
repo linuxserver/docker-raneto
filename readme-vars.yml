@@ -42,6 +42,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "10.08.21:", desc: "Rebasing to alpine 3.15." }
   - { date: "23.01.21:", desc: "Rebasing to alpine 3.13." }
   - { date: "02.06.20:", desc: "Rebasing to alpine 3.11." }
   - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }
