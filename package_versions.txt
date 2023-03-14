@@ -437,7 +437,7 @@ sparkles                               1.0.1                  npm
 spdx-correct                           3.2.0                  npm     
 spdx-exceptions                        2.3.0                  npm     
 spdx-expression-parse                  3.0.1                  npm     
-spdx-license-ids                       3.0.12                 npm     
+spdx-license-ids                       3.0.13                 npm     
 split-string                           3.1.0                  npm     
 sprintf-js                             1.0.3                  npm     
 sprintf-js                             1.1.2                  npm     
