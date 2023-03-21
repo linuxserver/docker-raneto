@@ -97,7 +97,7 @@ copy-props                             2.0.5                  npm
 core-util-is                           1.0.3                  npm     
 corepack                               0.16.0                 npm     
 coreutils                              9.1-r0                 apk     
-curl                                   7.88.1-r0              apk     
+curl                                   7.88.1-r1              apk     
 d                                      1.0.1                  npm     
 data-uri-to-buffer                     4.0.1                  npm     
 debug                                  2.6.9                  npm     
@@ -176,7 +176,7 @@ glob-watcher                           5.0.5                  npm
 global-modules                         1.0.0                  npm     
 global-prefix                          1.0.2                  npm     
 glogg                                  1.0.2                  npm     
-graceful-fs                            4.2.10                 npm     
+graceful-fs                            4.2.11                 npm     
 gray-matter                            2.1.1                  npm     
 gulp                                   4.0.2                  npm     
 gulp-cli                               2.3.0                  npm     
@@ -258,7 +258,7 @@ libattr                                2.5.1-r2               apk
 libbsd                                 0.11.7-r0              apk     
 libc-utils                             0.7.2-r3               apk     
 libcrypto3                             3.0.8-r0               apk     
-libcurl                                7.88.1-r0              apk     
+libcurl                                7.88.1-r1              apk     
 libgcc                                 12.2.1_git20220924-r4  apk     
 libintl                                0.21.1-r1              apk     
 libmd                                  1.0.4-r0               apk     
