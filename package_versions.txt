@@ -399,7 +399,7 @@ replace-ext                            1.0.1                  npm
 replace-homedir                        1.0.0                  npm     
 require-directory                      2.1.1                  npm     
 require-main-filename                  1.0.1                  npm     
-resolve                                1.22.1                 npm     
+resolve                                1.22.2                 npm     
 resolve-dir                            1.0.1                  npm     
 resolve-options                        1.1.0                  npm     
 resolve-url                            0.2.1                  npm     
