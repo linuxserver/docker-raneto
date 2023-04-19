@@ -1,19 +1,22 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
-# make directories if necessary
-mkdir -p /config/content
+folders=(
+    /app/raneto/node_modules/@raneto/theme-default/dist/public/images
+    /app/raneto/content
+)
 
-i=/app/raneto/themes/default/public/images
-if [[ -e "$i" && ! -L "$i" && -e /config/"$(basename "$i")" ]]; then
-    rm -Rf "$i" && \
-    ln -s /config/"$(basename "$i")" "$i"
-fi
+for i in "${folders[@]}"; do
+    if [[ -e "$i" && ! -L "$i" && -e /config/"$(basename "$i")" ]]; then
+        rm -Rf "$i" && \
+        ln -s /config/"$(basename "$i")" "$i"
+    fi
 
-if [[ -e "$i" && ! -L "$i" ]]; then
-    mv "$i" /config/"$(basename "$i")" && \
-    ln -s /config/"$(basename "$i")" "$i"
-fi
+    if [[ -e "$i" && ! -L "$i" ]]; then
+        mv "$i" /config/"$(basename "$i")" && \
+        ln -s /config/"$(basename "$i")" "$i"
+    fi
+done
 
 # create local user server files
 if [[ ! -f /config/config.default.js ]]; then
