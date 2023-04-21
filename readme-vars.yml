@@ -42,6 +42,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "21.04.23:", desc: "Fix for upstream changes. Content now needs to be placed in /config/content/pages." }
   - { date: "18.01.23:", desc: "Rebase to Alpine 3.17, migrate to s6v3." }
   - { date: "10.08.22:", desc: "Rebasing to alpine 3.15." }
   - { date: "23.01.21:", desc: "Rebasing to alpine 3.13." }

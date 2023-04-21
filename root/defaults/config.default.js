@@ -68,7 +68,7 @@ var config = {
   content_dir : '/config/content/',
 
   // Where is the public directory or document root?
-  public_dir  : '/app/raneto/themes/default/public',
+  public_dir: path.join(theme_dir, theme_name, 'public'),
 
   // The base URL of your images folder,
   // Relative to config.public_dir
@@ -165,7 +165,6 @@ var config = {
   menu_on_pages: true,
   menu_on_page_collapsible: true,
 };
-config.public_dir = '/app/raneto/themes/default/public';
 
 // Exports
 module.exports = config;
