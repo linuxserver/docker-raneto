@@ -23,8 +23,9 @@ if [[ ! -f /config/config.default.js ]]; then
     cp /defaults/config.default.js /config/config.default.js
 fi
 
-if [[ ! -f /app/raneto/server.js ]]; then
-    cp /defaults/server.js /app/raneto/server.js
+if [[ -f "/defaults/server.js" ]]; then
+    rm -rf "/app/raneto/server.js"
+    mv "/defaults/server.js" "/app/raneto/server.js"
 fi
 
 # permissions

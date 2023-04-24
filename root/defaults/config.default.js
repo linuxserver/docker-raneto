@@ -10,8 +10,7 @@ var path = require('path');
 // Themes from NPM
 // use "dist" as the theme name for modules (for now)
 var theme_dir = path.join(
-  __dirname,
-  '..',
+  '/app/raneto',
   'node_modules',
   '@raneto/theme-default'
 );
