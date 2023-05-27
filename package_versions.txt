@@ -32,7 +32,7 @@ busybox                  1.35.0                 binary
 busybox                  1.35.0-r29             apk     
 busybox-binsh            1.35.0-r29             apk     
 bytes                    3.1.2                  npm     
-c-ares                   1.18.1-r1              apk     
+c-ares                   1.19.1-r0              apk     
 ca-certificates          20230506-r0            apk     
 ca-certificates-bundle   20230506-r0            apk     
 call-bind                1.0.2                  npm     
@@ -50,7 +50,7 @@ cookie-signature         1.0.6                  npm
 core-util-is             1.0.3                  npm     
 corepack                 0.16.0                 npm     
 coreutils                9.1-r0                 apk     
-curl                     8.1.0-r1               apk     
+curl                     8.1.1-r1               apk     
 data-uri-to-buffer       4.0.1                  npm     
 debug                    2.6.9                  npm     
 debug                    4.3.4                  npm     
@@ -119,7 +119,7 @@ libattr                  2.5.1-r2               apk
 libbsd                   0.11.7-r0              apk     
 libc-utils               0.7.2-r3               apk     
 libcrypto3               3.0.8-r4               apk     
-libcurl                  8.1.0-r1               apk     
+libcurl                  8.1.1-r1               apk     
 libgcc                   12.2.1_git20220924-r4  apk     
 libintl                  0.21.1-r1              apk     
 libmd                    1.0.4-r0               apk     
@@ -157,8 +157,8 @@ ms                       2.1.2                  npm
 ms                       2.1.3                  npm     
 musl                     1.2.3-r5               apk     
 musl-utils               1.2.3-r5               apk     
-ncurses-libs             6.3_p20221119-r0       apk     
-ncurses-terminfo-base    6.3_p20221119-r0       apk     
+ncurses-libs             6.3_p20221119-r1       apk     
+ncurses-terminfo-base    6.3_p20221119-r1       apk     
 negotiator               0.6.3                  npm     
 netcat-openbsd           1.130-r4               apk     
 nghttp2-libs             1.51.0-r0              apk     
