@@ -146,7 +146,7 @@ list-item                1.1.1                  npm
 lodash._reinterpolate    3.0.0                  npm     
 lodash.template          4.5.0                  npm     
 lodash.templatesettings  4.2.0                  npm     
-lru-cache                9.1.2                  npm     
+lru-cache                10.0.0                 npm     
 lunr                     2.3.9                  npm     
 lunr-languages           1.12.0                 npm     
 markdown-link            0.1.1                  npm     
@@ -196,7 +196,7 @@ passport-google-oauth20  2.0.0                  npm
 passport-oauth2          1.7.0                  npm     
 passport-strategy        1.0.0                  npm     
 path-key                 3.1.1                  npm     
-path-scurry              1.9.2                  npm     
+path-scurry              1.10.0                 npm     
 path-to-regexp           0.1.7                  npm     
 pause                    0.0.1                  npm     
 popper.js                1.16.1                 npm     
