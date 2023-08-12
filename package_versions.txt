@@ -10,7 +10,7 @@ ada-libs                 2.5.1-r0                apk
 alpine-baselayout        3.4.3-r1                apk     
 alpine-baselayout-data   3.4.3-r1                apk     
 alpine-keys              2.4-r1                  apk     
-alpine-release           3.18.2-r0               apk     
+alpine-release           3.18.3-r0               apk     
 ansi-red                 0.1.1                   npm     
 ansi-regex               5.0.1                   npm     
 ansi-regex               6.0.1                   npm     
@@ -119,7 +119,7 @@ isarray                  1.0.0                   npm
 isexe                    2.0.0                   npm     
 isobject                 2.1.0                   npm     
 isobject                 3.0.1                   npm     
-jackspeak                2.2.2                   npm     
+jackspeak                2.2.3                   npm     
 jq                       1.6-r3                  apk     
 jquery                   3.6.1                   npm     
 jquery-backstretch       2.1.18                  npm     
@@ -150,7 +150,7 @@ list-item                1.1.1                   npm
 lodash._reinterpolate    3.0.0                   npm     
 lodash.template          4.5.0                   npm     
 lodash.templatesettings  4.2.0                   npm     
-lru-cache                10.0.0                  npm     
+lru-cache                10.0.1                  npm     
 lunr                     2.3.9                   npm     
 lunr-languages           1.12.0                  npm     
 markdown-link            0.1.1                   npm     
