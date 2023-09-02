@@ -118,7 +118,7 @@ isarray                  1.0.0                   npm
 isexe                    2.0.0                   npm   
 isobject                 2.1.0                   npm   
 isobject                 3.0.1                   npm   
-jackspeak                2.3.0                   npm   
+jackspeak                2.3.1                   npm   
 jq                       1.6-r3                  apk   
 jquery                   3.6.1                   npm   
 jquery-backstretch       2.1.18                  npm   
@@ -139,7 +139,7 @@ libidn2                  2.3.4-r1                apk
 libintl                  0.21.1-r7               apk   
 libmd                    1.0.4-r2                apk   
 libncursesw              6.4_p20230506-r0        apk   
-libproc2                 4.0.3-r1                apk   
+libproc2                 4.0.4-r0                apk   
 libssl3                  3.1.2-r0                apk   
 libstdc++                12.2.1_git20220924-r10  apk   
 libunistring             1.1-r1                  apk   
@@ -202,7 +202,7 @@ path-to-regexp           0.1.7                   npm
 pause                    0.0.1                   npm   
 popper.js                1.16.1                  npm   
 process-nextick-args     2.0.1                   npm   
-procps-ng                4.0.3-r1                apk   
+procps-ng                4.0.4-r0                apk   
 proxy-addr               2.0.7                   npm   
 qs                       6.11.0                  npm   
 random-bytes             1.0.0                   npm   
