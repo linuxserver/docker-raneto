@@ -3,14 +3,14 @@ NAME                     VERSION                 TYPE
 @pkgjs/parseargs         0.11.0                  npm   
 @raneto/theme-default    0.0.1                   npm   
 @types/node              17.0.45                 npm   
-@types/sax               1.2.4                   npm   
+@types/sax               1.2.5                   npm   
 abbrev                   1.1.1                   npm   
 accepts                  1.3.8                   npm   
 ada-libs                 2.5.1-r0                apk   
 alpine-baselayout        3.4.3-r1                apk   
 alpine-baselayout-data   3.4.3-r1                apk   
 alpine-keys              2.4-r1                  apk   
-alpine-release           3.18.3-r0               apk   
+alpine-release           3.18.4-r0               apk   
 ansi-red                 0.1.1                   npm   
 ansi-regex               5.0.1                   npm   
 ansi-regex               6.0.1                   npm   
@@ -118,7 +118,7 @@ isarray                  1.0.0                   npm
 isexe                    2.0.0                   npm   
 isobject                 2.1.0                   npm   
 isobject                 3.0.1                   npm   
-jackspeak                2.3.3                   npm   
+jackspeak                2.3.6                   npm   
 jq                       1.6-r3                  apk   
 jquery                   3.6.1                   npm   
 jquery-backstretch       2.1.18                  npm   
@@ -221,7 +221,7 @@ safe-buffer              5.1.2                   npm
 safe-buffer              5.2.1                   npm   
 safer-buffer             2.1.2                   npm   
 sanitize-filename        1.6.3                   npm   
-sax                      1.2.4                   npm   
+sax                      1.3.0                   npm   
 scanelf                  1.3.7-r1                apk   
 send                     0.18.0                  npm   
 serve-favicon            2.5.0                   npm   
