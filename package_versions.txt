@@ -1,7 +1,7 @@
 NAME                      VERSION                 TYPE 
 @isaacs/cliui             8.0.2                   npm   
 @pkgjs/parseargs          0.11.0                  npm   
-@raneto/theme-default     0.0.1                   npm   
+@raneto/theme-default     0.1.0                   npm   
 @types/node               17.0.45                 npm   
 @types/sax                1.2.6                   npm   
 abbrev                    1.1.1                   npm   
@@ -29,9 +29,6 @@ bash                      5.2.15-r5               apk
 basic-auth                2.0.1                   npm   
 body-parser               1.20.1                  npm   
 body-parser               1.20.2                  npm   
-bootstrap                 3.3.2                   npm   
-bootstrap                 4.6.2                   npm   
-bootstrap-rtl             3.3.4                   npm   
 brace-expansion           2.0.1                   npm   
 brotli-libs               1.0.9-r14               apk   
 buffer-from               1.1.2                   npm   
@@ -45,7 +42,7 @@ call-bind                 1.0.5                   npm
 coffee-script             1.12.7                  npm   
 color-convert             2.0.1                   npm   
 color-name                1.1.4                   npm   
-commander                 11.0.0                  npm   
+commander                 11.1.0                  npm   
 concat-stream             1.6.2                   npm   
 concat-with-sourcemaps    1.1.0                   npm   
 content-disposition       0.5.4                   npm   
@@ -83,7 +80,6 @@ extend-shallow            2.0.1                   npm
 fetch-blob                3.2.0                   npm   
 fill-range                2.2.4                   npm   
 finalhandler              1.2.0                   npm   
-fitvids                   2.1.1                   npm   
 for-in                    1.0.2                   npm   
 foreground-child          3.1.1                   npm   
 formdata-polyfill         4.0.10                  npm   
@@ -92,7 +88,7 @@ fresh                     0.5.2                   npm
 fs-extra                  11.1.1                  npm   
 function-bind             1.1.2                   npm   
 get-intrinsic             1.2.2                   npm   
-glob                      10.2.7                  npm   
+glob                      10.3.10                 npm   
 gopd                      1.0.1                   npm   
 graceful-fs               4.2.11                  npm   
 gray-matter               2.1.1                   npm   
@@ -123,7 +119,6 @@ isobject                  2.1.0                   npm
 isobject                  3.0.1                   npm   
 jackspeak                 2.3.6                   npm   
 jq                        1.6-r3                  apk   
-jquery                    3.6.1                   npm   
 jquery-backstretch        2.1.18                  npm   
 js-yaml                   3.14.1                  npm   
 js-yaml                   4.1.0                   npm   
@@ -154,11 +149,10 @@ lodash.template           4.5.0                   npm
 lodash.templatesettings   4.2.0                   npm   
 lru-cache                 10.0.1                  npm   
 lunr                      2.3.9                   npm   
-lunr-languages            1.12.0                  npm   
+lunr-languages            1.14.0                  npm   
 markdown-link             0.1.1                   npm   
 markdown-toc              1.2.0                   npm   
-marked                    5.1.0                   npm   
-masonry-layout            4.2.2                   npm   
+marked                    7.0.5                   npm   
 math-random               1.0.4                   npm   
 media-typer               0.3.0                   npm   
 merge-descriptors         1.0.1                   npm   
@@ -168,7 +162,7 @@ mime-db                   1.52.0                  npm
 mime-types                2.1.35                  npm   
 minimatch                 9.0.3                   npm   
 minimist                  1.2.8                   npm   
-minipass                  6.0.2                   npm   
+minipass                  7.0.4                   npm   
 mixin-deep                1.3.2                   npm   
 mkdirp                    0.3.0                   npm   
 moment                    2.29.4                  npm   
@@ -184,7 +178,7 @@ negotiator                0.6.3                   npm
 netcat-openbsd            1.219-r1                apk   
 nghttp2-libs              1.57.0-r0               apk   
 node-domexception         1.0.0                   npm   
-node-fetch                3.3.1                   npm   
+node-fetch                3.3.2                   npm   
 nodejs-current            20.8.1-r0               apk   
 nopt                      1.0.10                  npm   
 oauth                     0.9.15                  npm   
@@ -203,14 +197,13 @@ path-key                  3.1.1                   npm
 path-scurry               1.10.1                  npm   
 path-to-regexp            0.1.7                   npm   
 pause                     0.0.1                   npm   
-popper.js                 1.16.1                  npm   
 process-nextick-args      2.0.1                   npm   
 procps-ng                 4.0.4-r0                apk   
 proxy-addr                2.0.7                   npm   
 qs                        6.11.0                  npm   
 random-bytes              1.0.0                   npm   
 randomatic                3.1.1                   npm   
-raneto                    0.17.5                  npm   
+raneto                    0.17.6                  npm   
 range-parser              1.2.1                   npm   
 raw-body                  2.5.1                   npm   
 raw-body                  2.5.2                   npm   
@@ -251,7 +244,6 @@ string_decoder            1.1.1                   npm
 strip-ansi                6.0.1                   npm   
 strip-ansi                7.1.0                   npm   
 strip-color               0.1.0                   npm   
-sweetalert2               11.4.29                 npm   
 through2                  2.0.5                   npm   
 to-object-path            0.3.0                   npm   
 toidentifier              1.0.1                   npm   
@@ -270,7 +262,7 @@ utf8-byte-length          1.0.4                   npm
 util-deprecate            1.0.2                   npm   
 utils-merge               1.0.1                   npm   
 utmps-libs                0.1.2.1-r1              apk   
-validator                 13.9.0                  npm   
+validator                 13.11.0                 npm   
 vary                      1.1.2                   npm   
 web-streams-polyfill      3.2.1                   npm   
 which                     2.0.2                   npm   
