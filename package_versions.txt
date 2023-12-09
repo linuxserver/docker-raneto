@@ -56,7 +56,7 @@ core-util-is              1.0.3                   npm
 corepack                  0.20.0                  npm   
 coreutils                 9.3-r1                  apk   
 cross-spawn               7.0.3                   npm   
-curl                      8.4.0-r0                apk   
+curl                      8.5.0-r0                apk   
 data-uri-to-buffer        4.0.1                   npm   
 debug                     2.6.9                   npm   
 debug                     4.3.4                   npm   
@@ -118,7 +118,7 @@ isexe                     2.0.0                   npm
 isobject                  2.1.0                   npm   
 isobject                  3.0.1                   npm   
 jackspeak                 2.3.6                   npm   
-jq                        1.6-r3                  apk   
+jq                        1.6-r4                  apk   
 jquery-backstretch        2.1.18                  npm   
 js-yaml                   3.14.1                  npm   
 js-yaml                   4.1.0                   npm   
@@ -131,7 +131,7 @@ libattr                   2.5.1-r4                apk
 libbsd                    0.11.7-r1               apk   
 libc-utils                0.7.2-r5                apk   
 libcrypto3                3.1.4-r1                apk   
-libcurl                   8.4.0-r0                apk   
+libcurl                   8.5.0-r0                apk   
 libgcc                    12.2.1_git20220924-r10  apk   
 libidn2                   2.3.4-r1                apk   
 libintl                   0.21.1-r7               apk   
