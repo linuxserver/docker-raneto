@@ -14,13 +14,10 @@ available_architectures:
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - {vol_path: "/config", vol_host_path: "/path/to/appdata", desc: "Raneto config and Markdown files"}
+  - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/data", desc: "Raneto config and Markdown files"}
 param_usage_include_ports: true
 param_ports:
   - {external_port: "3000", internal_port: "3000", port_desc: "The port for the Raneto web interface"}
-param_usage_include_env: true
-param_env_vars:
-  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -36,6 +33,7 @@ app_setup_block: |
   * /config/images - This folder will serve content on http://<your-ip>:3000/images/<image name>.png you can put anything in here but it is specifically for image files so you can embed them in your Markdown files without using external hosting.
 # changelog
 changelogs:
+  - {date: "20.03.24:", desc: "Rebase to Alpine 3.19."}
   - {date: "12.07.23:", desc: "Rebase to Alpine 3.18."}
   - {date: "01.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "21.04.23:", desc: "Fix for upstream changes."}
