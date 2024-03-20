@@ -87,7 +87,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/appdata:/config
+      - /path/to/raneto/data:/config
     ports:
       - 3000:3000
     restart: unless-stopped
@@ -102,7 +102,7 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
   -p 3000:3000 \
-  -v /path/to/appdata:/config \
+  -v /path/to/raneto/data:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/raneto:latest
 ```
@@ -280,6 +280,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.03.24:** - Rebase to Alpine 3.19.
 * **12.07.23:** - Rebase to Alpine 3.18.
 * **01.07.23:** - Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)
 * **21.04.23:** - Fix for upstream changes.
