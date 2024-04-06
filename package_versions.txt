@@ -17,7 +17,7 @@ ansi-regex                6.0.1                  npm   (+2 duplicates)
 ansi-styles               4.3.0                  npm                    
 ansi-styles               6.2.1                  npm                    
 ansi-wrap                 0.1.0                  npm                    
-apk-tools                 2.14.0-r5              apk                    
+apk-tools                 2.14.3-r1              apk                    
 arg                       5.0.2                  npm                    
 argparse                  1.0.10                 npm   (+1 duplicate)   
 argparse                  2.0.1                  npm                    
@@ -54,7 +54,7 @@ cookie-parser             1.4.6                  npm
 cookie-signature          1.0.6                  npm                    
 cookie-signature          1.0.7                  npm                    
 core-util-is              1.0.3                  npm                    
-corepack                  0.23.0                 npm                    
+corepack                  0.25.2                 npm                    
 coreutils                 9.4-r2                 apk                    
 coreutils-env             9.4-r2                 apk                    
 coreutils-fmt             9.4-r2                 apk                    
@@ -185,7 +185,7 @@ netcat-openbsd            1.226-r0               apk
 nghttp2-libs              1.58.0-r0              apk                    
 node-domexception         1.0.0                  npm                    
 node-fetch                3.3.2                  npm                    
-nodejs-current            21.4.0-r0              apk                    
+nodejs-current            21.7.2-r0              apk                    
 nopt                      1.0.10                 npm                    
 oauth                     0.10.0                 npm                    
 object-inspect            1.13.1                 npm                    
