@@ -3,7 +3,7 @@
 # project information
 project_name: raneto
 project_url: "http://raneto.com/"
-project_logo: "https://raw.githubusercontent.com/gilbitron/Raneto/master/logo/logo_readme.png"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/raneto-logo.png"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) - is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 project_categories: "Content Management"
@@ -19,6 +19,8 @@ param_volumes:
 param_usage_include_ports: true
 param_ports:
   - {external_port: "3000", internal_port: "3000", port_desc: "The port for the Raneto web interface"}
+readonly_supported: false
+nonroot_supported: false
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -77,6 +79,7 @@ init_diagram: |
   "raneto:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "01.02.25:", desc: "Rebase to Alpine 3.21."}
   - {date: "06.06.24:", desc: "Rebase to Alpine 3.20."}
   - {date: "20.03.24:", desc: "Rebase to Alpine 3.19."}
   - {date: "12.07.23:", desc: "Rebase to Alpine 3.18."}
