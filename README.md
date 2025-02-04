@@ -41,7 +41,7 @@ Find us at:
 
 [Raneto](http://raneto.com/) - is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.
 
-[![raneto](https://raw.githubusercontent.com/gilbitron/Raneto/master/logo/logo_readme.png)](http://raneto.com/)
+[![raneto](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/raneto-logo.png)](http://raneto.com/)
 
 ## Supported Architectures
 
@@ -284,6 +284,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **01.02.25:** - Rebase to Alpine 3.21.
 * **06.06.24:** - Rebase to Alpine 3.20.
 * **20.03.24:** - Rebase to Alpine 3.19.
 * **12.07.23:** - Rebase to Alpine 3.18.
