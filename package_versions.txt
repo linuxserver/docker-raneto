@@ -61,7 +61,7 @@ coreutils-env                9.5-r2            apk
 coreutils-fmt                9.5-r2            apk                    
 coreutils-sha512sum          9.5-r2            apk                    
 cross-spawn                  7.0.3             npm                    
-curl                         8.11.1-r0         apk                    
+curl                         8.12.0-r0         apk                    
 data-uri-to-buffer           4.0.1             npm                    
 debug                        2.6.9             npm   (+5 duplicates)  
 debug                        4.3.4             npm                    
@@ -136,8 +136,8 @@ kind-of                      6.0.3             npm
 lazy-cache                   2.0.2             npm                    
 libattr                      2.5.2-r2          apk                    
 libbsd                       0.12.2-r0         apk                    
-libcrypto3                   3.3.2-r4          apk                    
-libcurl                      8.11.1-r0         apk                    
+libcrypto3                   3.3.2-r5          apk                    
+libcurl                      8.12.0-r0         apk                    
 libgcc                       14.2.0-r4         apk                    
 libidn2                      2.3.7-r0          apk                    
 libintl                      0.22.5-r0         apk                    
@@ -145,7 +145,7 @@ libmd                        1.1.0-r0          apk
 libncursesw                  6.5_p20241006-r3  apk                    
 libproc2                     4.0.4-r2          apk                    
 libpsl                       0.21.5-r3         apk                    
-libssl3                      3.3.2-r4          apk                    
+libssl3                      3.3.2-r5          apk                    
 libstdc++                    14.2.0-r4         apk                    
 libunistring                 1.2-r0            apk                    
 linux-pam                    1.6.1-r1          apk                    
@@ -185,7 +185,7 @@ netcat-openbsd               1.226.1.1-r0      apk
 nghttp2-libs                 1.64.0-r0         apk                    
 node-domexception            1.0.0             npm                    
 node-fetch                   3.3.2             npm                    
-nodejs                       22.11.0-r1        apk                    
+nodejs                       22.13.1-r0        apk                    
 nopt                         1.0.10            npm                    
 oauth                        0.10.0            npm                    
 object-inspect               1.13.1            npm                    
@@ -244,7 +244,7 @@ snowball                     0.3.1             npm
 source-map                   0.6.1             npm                    
 sprintf-js                   1.0.3             npm   (+1 duplicate)   
 sprintf-js                   1.1.2             npm                    
-sqlite-libs                  3.47.1-r0         apk                    
+sqlite-libs                  3.48.0-r0         apk                    
 ssl_client                   1.37.0-r12        apk                    
 statuses                     2.0.1             npm                    
 string-width                 4.2.3             npm   (+1 duplicate)   
