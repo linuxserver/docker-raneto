@@ -185,7 +185,7 @@ netcat-openbsd               1.226.1.1-r0      apk
 nghttp2-libs                 1.64.0-r0         apk                    
 node-domexception            1.0.0             npm                    
 node-fetch                   3.3.2             npm                    
-nodejs                       22.13.1-r0        apk                    
+nodejs                       22.15.1-r0        apk                    
 nopt                         1.0.10            npm                    
 oauth                        0.10.0            npm                    
 object-inspect               1.13.1            npm                    
