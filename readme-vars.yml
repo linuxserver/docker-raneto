@@ -72,7 +72,7 @@ init_diagram: |
     svc-raneto -> legacy-services
   }
   Base Images: {
-    "baseimage-alpine:3.21"
+    "baseimage-alpine:3.22"
   }
   "raneto:latest" <- Base Images
 # changelog
