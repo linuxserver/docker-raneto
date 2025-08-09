@@ -33,8 +33,8 @@ body-parser                  1.20.2            npm
 brace-expansion              2.0.1             npm                    
 brotli-libs                  1.1.0-r2          apk                    
 buffer-from                  1.1.2             npm                    
-busybox                      1.37.0-r18        apk                    
-busybox-binsh                1.37.0-r18        apk                    
+busybox                      1.37.0-r19        apk                    
+busybox-binsh                1.37.0-r19        apk                    
 bytes                        3.1.2             npm                    
 c-ares                       1.34.5-r0         apk                    
 ca-certificates              20250619-r0       apk                    
@@ -246,7 +246,7 @@ source-map                   0.6.1             npm
 sprintf-js                   1.0.3             npm   (+1 duplicate)   
 sprintf-js                   1.1.2             npm                    
 sqlite-libs                  3.49.2-r1         apk                    
-ssl_client                   1.37.0-r18        apk                    
+ssl_client                   1.37.0-r19        apk                    
 statuses                     2.0.1             npm                    
 string-width                 4.2.3             npm   (+1 duplicate)   
 string-width                 5.1.2             npm                    
