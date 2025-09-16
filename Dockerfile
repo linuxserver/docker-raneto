@@ -9,7 +9,7 @@ ARG RANETO_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 
-ENV PORT=3000
+ENV PORT=3000 
 
 RUN \
   echo "**** install build packages ****" && \
@@ -35,6 +35,9 @@ RUN \
     /app/raneto --strip-components=1 && \
   echo "**** install raneto node dev modules and build ****" && \
   cd /app/raneto && \
+  sed -i \
+    's/upgradeInsecureRequests: \[\]/upgradeInsecureRequests: null/g' \
+    app/index.js && \
   npm install --omit=dev && \
   mkdir sessions && \
   rm -f config/config.js && \
