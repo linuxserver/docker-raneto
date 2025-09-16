@@ -9,6 +9,8 @@ ARG RANETO_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 
+ENV PORT=3000
+
 RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies \
@@ -34,6 +36,8 @@ RUN \
   echo "**** install raneto node dev modules and build ****" && \
   cd /app/raneto && \
   npm install --omit=dev && \
+  mkdir sessions && \
+  rm -f config/config.js && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apk del --purge \

@@ -4,6 +4,8 @@
 folders=(
     /app/raneto/node_modules/@raneto/theme-default/dist/public/images
     /app/raneto/content
+    /app/raneto/config
+    /app/raneto/sessions
 )
 
 for i in "${folders[@]}"; do
@@ -18,14 +20,14 @@ for i in "${folders[@]}"; do
     fi
 done
 
-# create local user server files
-if [[ ! -f /config/config.default.js ]]; then
-    cp /defaults/config.default.js /config/config.default.js
+# upgrade support
+if [[ -f /config/config.default.js ]]; then
+  mv /config/config.default.js /config/config/config.js
 fi
 
-if [[ -f "/defaults/server.js" ]]; then
-    rm -rf "/app/raneto/server.js"
-    mv "/defaults/server.js" "/app/raneto/server.js"
+# copy default config
+if [[ ! -f /config/config/config.js ]]; then
+    cp /defaults/config.js /config/config/config.js
 fi
 
 # permissions
