@@ -13,7 +13,7 @@ ada-libs                 2.9.2-r4          apk
 alpine-baselayout        3.7.0-r0          apk                    
 alpine-baselayout-data   3.7.0-r0          apk                    
 alpine-keys              2.5-r0            apk                    
-alpine-release           3.22.1-r0         apk                    
+alpine-release           3.22.2-r0         apk                    
 ansi-regex               5.0.1             npm   (+2 duplicates)  
 ansi-regex               6.2.2             npm                    
 ansi-styles              4.3.0             npm                    
