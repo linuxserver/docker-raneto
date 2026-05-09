@@ -164,7 +164,7 @@ nanoid                   3.3.11            npm
 ncurses-terminfo-base    6.5_p20250503-r0  apk                   
 negotiator               1.0.0             npm                   
 netcat-openbsd           1.229.1-r0        apk                   
-nghttp2-libs             1.65.0-r0         apk                   
+nghttp2-libs             1.69.0-r0         apk                   
 nodejs                   22.22.2-r0        apk                   
 oauth                    0.10.2            npm                   
 object-assign            4.1.1             npm                   
