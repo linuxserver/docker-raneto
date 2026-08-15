@@ -25,7 +25,7 @@ RUN \
     /app/raneto && \
   if [ -z ${RANETO_RELEASE+x} ]; then \
     RANETO_RELEASE=$(curl -sX GET "https://api.github.com/repos/ryanlelek/Raneto/releases/latest" \
-      | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+      | jq -r '.tag_name'); \
   fi && \
   curl -o \
     /tmp/raneto-src.tar.gz -L \
